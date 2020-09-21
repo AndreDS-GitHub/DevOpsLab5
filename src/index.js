@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({
 }))
 app.use(bodyParser.json())
 
-app.get('/', (req, res) => res.send('Hello World!'))
+app.get('/', (req, res) => res.send('Welcome to my simple and yet humble html page (yes, it is almost empty, i\'m aware -.-)'))
 
 app.use('/user', userRouter)
 
